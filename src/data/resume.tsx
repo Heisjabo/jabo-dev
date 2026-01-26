@@ -8,24 +8,20 @@ export const DATA = {
   location: "Kigali, Rwanda",
   locationLink: "https://www.google.com/maps/place/kigali",
   description:
-    "Software Developer & Product Designer. I love building things and helping people learn technology.",
+    "Product Designer & Frontend Developer. I design clear, accessible interfaces and ship them on the web.",
   summary:
-    "Software developer and product designer with 2+ years of experience. Strong ownership mindset, proficient in software development technologies, passionate in visual design, excellent communication and collaboration skills, and a passion for learning and adapting to new technologies.",
+    "Product designer and frontend developer with 3+ years of experience. I design dashboards and websites that prioritize clarity, accessibility, and usability, and I also contribute to implementation using React/Next.js and TypeScript.",
   avatarUrl: "/me.png",
   skills: [
+    "Figma",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
     "React",
     "Next.js",
     "TypeScript",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "PostgreSQL",
     "Redux",
     "TailwindCSS",
     "Sass",
-    "Figma",
-    "Docker",
-    "AWS Lambda",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -65,9 +61,9 @@ export const DATA = {
       title: "Frontend Developer",
       logoUrl: "/tuzapay_logo.jpeg",
       start: "Jun 2024",
-      end: "Dec 2024",
+      end: "Dec 2025",
       description:
-        "Working as a frontend developer at TuzaPay Limited, a dynamic and innovative financial technology company. Developing and maintaining web dashboards using React, Next.js, TailwindCSS, Redux, and TypeScript.",
+        "Working as a frontend developer at TuzaPay Limited, a dynamic and innovative financial technology company. Designing and implementing web dashboards using Figma, React, Next.js, TailwindCSS, Redux, and TypeScript.",
     },
     {
       company: "Trendsaf",
@@ -134,24 +130,52 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Bridging Afrika",
-      href: "https://www.bridgingafrika.org/",
-      dates: "Jan 2024 - Mar 2024",
+      title: "Base Food",
+      href: "https://www.figma.com/design/amHHLR6CAUK5RDULm7FFFs/baseFood?t=T3FaQFEgFeEVa5Qd-1",
+      dates: "UI/UX Dashboard Design",
       active: true,
       description:
-        "Developed a modern, responsive website for Bridging Afrika, a social enterprise empowering African communities through technology, education, and economic opportunities.",
+        "Data aggregation and analytics platform for agriculture. Designed an analytics dashboard for visualizing agricultural data with a focus on clarity, insight discovery, and usability. Built structured layouts, charts, and scalable components in Figma to support stakeholder decision-making.",
       technologies: [
-        "Reactjs",
-        "Javascript",
-        "MongoDB",
-        "Nodejs",
-        "Express",
-        "TailwindCSS",
+        "Figma",
+        "Dashboard UI",
+        "Data Visualization",
+        "Information Architecture",
+        "Component Design",
       ],
       links: [
         {
+          type: "Figma",
+          href: "https://www.figma.com/design/amHHLR6CAUK5RDULm7FFFs/baseFood?t=T3FaQFEgFeEVa5Qd-1",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/basefood.png",
+      video: "",
+    },
+    {
+      title: "Bridging Afrika",
+      href: "https://www.figma.com/design/raiJCWjOuEcvRWNk1mwHa8/Bridging-Afrika?node-id=0-1&t=PCuhzCyArDPLEFz8-1",
+      dates: "UI/UX Website Design",
+      active: true,
+      description:
+        "Designed a responsive and accessible website for Bridging Afrika, a social enterprise committed to advancing disability inclusion through sustainable assistive technologies. Applied accessibility principles and delivered a design aligned with the organization’s mission, branding, and social impact goals.",
+      technologies: [
+        "Figma",
+        "Responsive Design",
+        "Accessibility",
+        "UI Design",
+        "UX Design",
+      ],
+      links: [
+        {
+          type: "Figma",
+          href: "https://www.figma.com/design/raiJCWjOuEcvRWNk1mwHa8/Bridging-Afrika?node-id=0-1&t=PCuhzCyArDPLEFz8-1",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Website",
-          href: "https://www.bridgingafrika.org/",
+          href: "https://bridgingafrika.org/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -159,30 +183,24 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Eagles E-commerce",
-      href: "https://eagles-ec-fe-staging.vercel.app/",
-      dates: "April 2024 - July 2024",
+      title: "Eagles E-commerce Platform",
+      href: "https://www.figma.com/design/niVmjORnW5Ke5Dsf8WQiYl/Eagles?node-id=0-1&p=f&t=nNiCKku4kWT9b7yW-0",
+      dates: "UI/UX Flows + Frontend Contribution",
       active: true,
       description:
-        "Built a full-stack e-commerce platform during Andela's Technical Leadership Program. Features include product management, shopping cart, user authentication, and order processing.",
+        "Multi-seller e-commerce platform. Designed UI flows for product browsing, seller management, and checkout experiences—optimizing usability for both sellers managing inventory and customers purchasing products. Contributed to frontend implementation using React and TypeScript.",
       technologies: [
-        "React.js",
+        "Figma",
+        "User Flows",
+        "E-commerce UX",
+        "React",
         "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "Sequelize",
-        "TailwindCSS",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://eagles-ec-fe-staging.vercel.app/",
+          type: "Figma",
+          href: "https://www.figma.com/design/niVmjORnW5Ke5Dsf8WQiYl/Eagles?node-id=0-1&p=f&t=nNiCKku4kWT9b7yW-0",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Heisjabo/eagles-ec-fe",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/eagles_ec.png",
@@ -207,6 +225,11 @@ export const DATA = {
         {
           type: "Website",
           href: "https://klab-site.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Figma",
+          href: "https://www.figma.com/design/1E274TlP49mOBszyJa5b6q/Klab-rebrand?node-id=0-1&p=f&t=t1DI2qkerfj5GtVq-0",
           icon: <Icons.globe className="size-3" />,
         },
       ],
